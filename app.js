@@ -21,8 +21,8 @@ module.exports = {
 			case '/':
 				renderHTML('./index.html', response);
 				break;
-			case '/login':
-				renderHTML('./login.html', response);
+			case '/REVAMP':
+				renderHTML('./REVAMP.html', response);
 				break;
 			default:
 				response.writeHead(404);
