@@ -24,6 +24,9 @@ module.exports = {
 			case '/REVAMP':
 				renderHTML('./REVAMP.html', response);
 				break;
+			case '/ASS':
+				renderHTML('./ASS.html', response);
+				break;
 			default:
 				response.writeHead(404);
 				response.write('File not found!');
