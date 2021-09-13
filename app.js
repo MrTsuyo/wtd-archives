@@ -24,8 +24,8 @@ module.exports = {
 			case '/REVAMP':
 				renderHTML('./REVAMP.html', response);
 				break;
-			case '/ASS':
-				renderHTML('./ASS.html', response);
+			case '/journal001':
+				renderHTML('./journal001.html', response);
 				break;
 			default:
 				response.writeHead(404);
