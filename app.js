@@ -33,6 +33,9 @@ module.exports = {
 			case '/journal011':
 				renderHTML('./journal011.html', response);
 				break;
+			case '/journal000':
+				renderHTML('./journal000.html', response);
+				break;
 			default:
 				response.writeHead(404);
 				response.write('File not found!');
