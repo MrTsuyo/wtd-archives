@@ -51,6 +51,16 @@ module.exports = {
 			case '/journal118':
 				renderHTML('./journal118.html', response);
 				break;
+
+
+
+
+			case '/LOCATION_001_TAPE_d3R':
+				renderHTML('./tape_location/wtd_001.html', response);
+				break;
+			case '/LOCATION_001_TAPE_kL':
+				renderHTML('./tape_location/tq_001.html', response);
+				break;
 			default:
 				response.writeHead(404);
 				response.write('File not found!');
