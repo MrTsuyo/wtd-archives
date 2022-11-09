@@ -55,10 +55,10 @@ module.exports = {
 
 
 
-			case '/LOCATION_001_TAPE_d3R':
+			case '/location001taped3R':
 				renderHTML('./tape_location/wtd_001.html', response);
 				break;
-			case '/LOCATION_001_TAPE_kL':
+			case '/location001tapekL':
 				renderHTML('./tape_location/tq_001.html', response);
 				break;
 			default:
