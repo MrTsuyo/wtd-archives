@@ -55,11 +55,11 @@ module.exports = {
 
 
 
-			case '/wtd_001':
-				renderHTML('./wtd_001.html', response);
+			case '/LOCATION_001_TAPE_d3R':
+				renderHTML('./tape_location/LOCATION_001_TAPE_d3R.html', response);
 				break;
-			case '/location001tapekL':
-				renderHTML('./tq_001.html', response);
+			case '/LOCATION_001_TAPE_kL':
+				renderHTML('./tape_location/LOCATION_001_TAPE_kL.html', response);
 				break;
 			default:
 				response.writeHead(404);
