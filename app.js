@@ -55,7 +55,7 @@ module.exports = {
 
 
 
-			case '/location001taped3R':
+			case '/wtd_001':
 				renderHTML('./wtd_001.html', response);
 				break;
 			case '/location001tapekL':
