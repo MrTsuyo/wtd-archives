@@ -56,10 +56,16 @@ module.exports = {
 
 
 			case '/LOCATION_001_TAPE_d3R':
-				renderHTML('./LOCATION_001_TAPE_d3R.html', response);
+				renderHTML('.LOCATION_001_TAPE_d3R.html', response);
 				break;
 			case '/LOCATION_001_TAPE_kL':
-				renderHTML('./LOCATION_001_TAPE_kL.html', response);
+				renderHTML('.LOCATION_001_TAPE_kL.html', response);
+				break;
+			case '/LOCATION_002_TAPE_WFy':
+				renderHTML('.LOCATION_002_TAPE_WFy.html', response);
+				break;
+			case '/LOCATION_002_TAPE_Y2':
+				renderHTML('.LOCATION_002_TAPE_Y2.html', response);
 				break;
 			default:
 				response.writeHead(404);
