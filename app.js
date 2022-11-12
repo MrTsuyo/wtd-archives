@@ -75,6 +75,14 @@ module.exports = {
 			case '/LOCATION_003_TAPE_mV':
 				renderHTML('.LOCATION_003_TAPE_mV.html', response);
 				break;
+
+			case '/LOCATION_004_TAPE_zL3':
+				renderHTML('.LOCATION_004_TAPE_zL3.html', response);
+				break;
+
+			case '/LOCATION_004_TAPE_dl':
+				renderHTML('.LOCATION_004_TAPE_dl.html', response);
+				break;
 			default:
 				response.writeHead(404);
 				response.write('File not found!');
