@@ -99,6 +99,13 @@ module.exports = {
 			case '/LOCATION_006_TAPE_CLV':
 				renderHTML('.LOCATION_006_TAPE_CLV.html', response);
 				break;
+			case '/LOCATION_007_TAPE_NJR':
+				renderHTML('.LOCATION_007_TAPE_NJR.html', response);
+				break;
+
+			case '/LOCATION_007_TAPE_EU=':
+				renderHTML('.LOCATION_007_TAPE_EU=.html', response);
+				break;
 			default:
 				response.writeHead(404);
 				response.write('File not found!');
