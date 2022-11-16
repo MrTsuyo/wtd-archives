@@ -106,6 +106,11 @@ module.exports = {
 			case '/LOCATION_007_TAPE_EU=':
 				renderHTML('.LOCATION_007_TAPE_EU=.html', response);
 				break;
+
+
+			case '/welcome_2_B-SIDE':
+				renderHTML('.welcome_2_B-SIDE.html', response);
+				break;
 			default:
 				response.writeHead(404);
 				response.write('File not found!');
